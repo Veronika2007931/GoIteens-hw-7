@@ -70,9 +70,15 @@ letter-spacing: 0.03em;
 color: #212121;
 
 }
+.nav-link{
+    display: flex;
+}
 
 .logo span{
 color:var(--accent-color) ;
+}
+nav{
+    margin-left: 93px;
 }
 
 .nav-link,
@@ -93,6 +99,11 @@ color:var(--primary-text-color);
 .contact-link:hover,
 .contact-link:focus{
     color: var(--accent-color);
+}
+
+.contacts-link{
+    display: flex;
+    margin-left: auto;
 }
 .contact-link{
     color: var(--secondary-text-color);
